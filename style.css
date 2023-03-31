@@ -9,6 +9,7 @@ body {
 }
 nav {
     box-shadow: 5px 0px 25px 1px;
+    width: 100vw;
 }
 .nav_center {
     display: inline-flex; 
@@ -22,7 +23,6 @@ h4 {
     display:inline-flex;
     justify-content: center;
     margin-left: 10rem;
-
     list-style-type: none;
 }
 li {
@@ -65,4 +65,23 @@ h2 {
 }
 .color {
     color: grey;
+}
+@media screen and (max-width:600px) {
+    nav {
+        width: 100vw;
+
+    }
+    .nav_links {
+        margin-left: 3rem;
+    }
+    h2{
+        width: 65vw;
+        font-size: 22px;
+    }
+    #btn {
+        font-size: 14px;
+    }
+    h4{
+        margin-right: 2rem;
+    }
 }
